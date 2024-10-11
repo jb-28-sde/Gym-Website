@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+    .header{
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        
+    }
+    body{
+        background-image: url(/il_fullxfull.5301161469_n5l2.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        width: 100%;
+    }
+    .logo{
+        display:flex;
+        justify-content:space-between; 
+        height: 70px;
+        border-bottom: 1px solid black;
+        background-image: linear-gradient(#0b803d59,rgba(14, 175, 255, 0.311));
+        
+          
+    }
+    p{
+        font-size:  21px;;
+        font-weight: 600;
+        text-align:inherit;
+        margin-top: 19px;
+        color:black;
+        text-shadow:  3px 3px lime;
+    }
+    .logo img{
+        height: 70px;
+        width: 100px;
+        
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+       
+        
+    }
+    .navbar a i{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 25px;
+        margin-left: 10px;
+        margin-right: 80px
+
+    }
+    .navbar a{
+        text-decoration: none;
+        margin-left: 89px;
+        margin-top: 19px;
+        color: black;
+        text-align: center;
+        text-align:unset;
+    }
+    .navbar a:hover{
+        background-color:dodgerblue;
+        color: white;
+        transition: 1s ease-out;
+        transform: scale(1,0.9);
+    }
+    .navbar a button {
+        border-radius: 250px;
+        width: 72px;
+        box-shadow: 6px 4px 2px lightskyblue;
+        background-image: linear-gradient(rgb(0, 255, 110),rgba(15, 0, 128, 0.285));
+        margin-right: 20px;
+        
+    }
+    .navbar a button:hover{
+        background-color:dodgerblue;
+        color: white;
+        transition: 1s ease-out;
+        transform: translate(2px,2px);
+    }
+    .banner{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .banner-text h1{
+        font-size: 50px;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 248px;
+        margin-left: -16px;
+    }
+    .banner-text{
+        text-align: center;
+        margin-top:-109px;
+        margin-left: 483px;
+    }
+    .banner-button{
+        border-radius: 250px;
+        width: 163px;
+        font-size: medium;
+        font-weight: 700;
+        background-color: red;
+        margin-top: 15px;
+    }
+    .banner-button:hover{
+        background-color:rgb(128, 255, 0);
+        color: white;
+        transition: 2s ease-in-out;
+       
+    }
